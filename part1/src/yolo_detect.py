@@ -34,7 +34,7 @@ def display_results(results):
 
 if __name__ == '__main__':
     # Load and preprocess the image
-    image = preprocess_image('../images/test_image.jpg')
+    image = preprocess_image('../images/penguin.webp')
     
     # Load the pre-trained YOLOv5 model
     model = load_yolo_model()
